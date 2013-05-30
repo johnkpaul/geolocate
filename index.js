@@ -3,7 +3,7 @@ var exec = require('child_process').exec;
 
 exports = module.exports = function geolocate(callback){
 
-exec("./bin/whereami | head -n2 | sed 's/Latitude: //' | sed 's/Longitude: //'", function (error, stdout, stderr) {
+exec(__dirname + "/bin/whereami | head -n2 | sed 's/Latitude: //' | sed 's/Longitude: //'", function (error, stdout, stderr) {
   if (error !== null) {
     console.log('exec error: ' + error);
   }

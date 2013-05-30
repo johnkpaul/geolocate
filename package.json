@@ -1,6 +1,6 @@
 {
   "name": "node-geolocate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Use geolocation services to get lat long",
   "main": "index.js",
   "scripts": {

@@ -1,5 +1,5 @@
 {
-  "name": "node-geolocate",
+  "name": "geolocate",
   "version": "0.0.1",
   "description": "Use geolocation services to get lat long",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/johnkpaul/node-geolocate"
+    "url": "http://github.com/johnkpaul/geolocate"
   },
   "keywords": [
     "geolocation"
